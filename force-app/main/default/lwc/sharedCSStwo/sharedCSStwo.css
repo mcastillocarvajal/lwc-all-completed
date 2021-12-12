@@ -1,0 +1,5 @@
+@import 'c/sharedCSSlibrary';
+.html{
+    width: 90%;
+    background-color: orange;
+}

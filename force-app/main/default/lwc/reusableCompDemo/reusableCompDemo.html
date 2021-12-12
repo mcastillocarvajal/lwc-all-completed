@@ -1,0 +1,34 @@
+<template>
+    <lightning-card variant="narrow" icon-name="standard:opportunity">
+    </lightning-card>
+    <c-reusable-custom-lightning-card>
+        <h1 slot="title">This is a title</h1>
+        <h1>This is the body</h1>
+        <div slot="actions">
+            <lightning-button-icon icon-name="utility:down"></lightning-button-icon>
+        </div>
+        <div slot="footer">
+            <h6>This is the footer</h6>
+        </div>
+    </c-reusable-custom-lightning-card>
+    </br>
+    <c-reusable-custom-lightning-card>
+        <h1 slot="title">Card without footer</h1>
+        <h1>This is the body</h1>
+        <div slot="actions">
+            <lightning-button-icon icon-name="utility:down"></lightning-button-icon>
+        </div>
+    </c-reusable-custom-lightning-card>
+    </br>
+    <c-reusable-custom-lightning-card>
+        <h1 slot="title">Card without actions</h1>
+        <h1>This is the body</h1>
+        <div slot="footer">
+            <h6>This is the footer</h6>
+        </div>
+    </c-reusable-custom-lightning-card>
+    </br>
+    <c-reusable-custom-lightning-card>
+        <h1 slot="title">Only title</h1>
+    </c-reusable-custom-lightning-card>
+</template>

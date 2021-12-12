@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contact_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>d0c325031d7b4d5f8af157d2288e80d7</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Zero to Hero LWC</label>
+    <navType>Standard</navType>
+    <tabs>LWC_Fundamentals</tabs>
+    <tabs>TreeGrid</tabs>
+    <tabs>Filtering_and_Sorting</tabs>
+    <tabs>Maps</tabs>
+    <tabs>ChartsJS</tabs>
+    <tabs>CRUD_uiRecordAPI</tabs>
+    <tabs>Wire_Service</tabs>
+    <tabs>Apex</tabs>
+    <tabs>Base_Components</tabs>
+    <tabs>Static_Resources_Context_and_Toast</tabs>
+    <tabs>Lightning_Messaging_Service</tabs>
+    <tabs>Styling_in_LWC</tabs>
+    <tabs>Quiz_App</tabs>
+    <tabs>Lifecycle_Hooks</tabs>
+    <tabs>Reusable_Component</tabs>
+    <tabs>Component_Communication</tabs>
+    <tabs>Navigation_Service</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Zero_to_Hero_LWC_UtilityBar</utilityBar>
+</CustomApplication>

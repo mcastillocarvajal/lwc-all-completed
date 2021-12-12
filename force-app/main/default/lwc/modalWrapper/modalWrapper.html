@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Modal Component Demo">
+        <div class="slds-var-p-around_medium">
+            <lightning-button variant="brand" label="Open" onclick={openHandler}></lightning-button>
+        </div>
+    </lightning-card>
+
+    <template if:true={isOpen}>
+        <c-modal onclose={closeHandler}>
+            <div slot="title">Slot header</div>
+            <p>Slot container</p>
+            <div slot="footer">
+                <button class="slds-button slds-button_neutral" onclick={closeHandler}>Cancel</button>
+                <button class="slds-button slds-button_brand">Save</button>
+            </div>
+        </c-modal>
+    </template>
+</template>
